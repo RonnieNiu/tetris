@@ -46,12 +46,11 @@
   .btn:active{transform:scale(.94); background:linear-gradient(180deg,#274174,#1a2547);}
   .btn.rot{font-size:26px; color:#a78bfa;}
   .k-left {grid-column:1; grid-row:1;}
-  .k-rotL {grid-column:1; grid-row:2;}
   .k-right{grid-column:4; grid-row:1;}
   .k-rotR {grid-column:4; grid-row:2;}
   .k-hold {grid-column:2; grid-row:1;}
   .k-drop {grid-column:3; grid-row:1;}
-  .k-down {grid-column:2 / span 2; grid-row:2;}
+  .k-down {grid-column:1; grid-row:2;}
   .btn small{font-size:11px; color:var(--dim); margin-left:6px;}
   .hint{color:var(--dim); font-size:11px; margin-top:8px; text-align:center;}
   #overlay{position:fixed; inset:0; display:none; align-items:center; justify-content:center;
@@ -92,14 +91,13 @@
 
   <div class="pad">
     <div class="btn k-left"  data-k="left">◀</div>
-    <div class="btn rot k-rotL" data-k="rotL">↺</div>
     <div class="btn k-hold"  data-k="hold">HOLD</div>
     <div class="btn k-drop"  data-k="drop">⤓ 硬降</div>
     <div class="btn k-right" data-k="right">▶</div>
     <div class="btn rot k-rotR" data-k="rotR">↻</div>
     <div class="btn k-down"  data-k="down">▼ 软降</div>
   </div>
-  <div class="hint">长按 ◀ ▶ 连续移动 · 长按 ▼ 连续下降 · ↺↻ 双向旋转　|　棋盘上也可左右滑/点击旋转/双指暂停</div>
+  <div class="hint">长按 ◀ ▶ 连续移动 · 长按 ▼ 连续下降 · ↻ 旋转　|　棋盘上也可左右滑/点击旋转/双指暂停</div>
 </div>
 
 <div id="overlay"><div class="box">
