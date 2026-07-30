@@ -1,5 +1,5 @@
 /* 离线缓存 Service Worker —— 首次加载后即可离线运行 */
-const CACHE = 'tetris-v1';
+const CACHE = 'tetris-v2';
 const ASSETS = ['./', 'index.html', 'manifest.json'];
 
 self.addEventListener('install', e => {
